@@ -62,16 +62,16 @@ function App() {
           <Text>
           <span>🎅크시스마쓰 초대장🎅</span>
           <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
-            <span>🎅크시스마쓰 초대장🎅</span>
+            <span>🎅크리스마쓰 초대장🎅</span>
+            <span>이 초대장은 모바일 퍼스트입니다. 핸드폰으로 바~</span>
+            <span>🎅크리스마쓰 초대장🎅</span>
             <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
-            <span>🎅크시스마쓰 초대장🎅</span>
+            <span>🎅크리스마쓰 초대장🎅</span>
+            <span>이 초대장은 모바일 퍼스트입니다. 핸드폰으로 바~</span>
+            <span>🎅크리스마쓰 초대장🎅</span>
             <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
-            <span>🎅크시스마쓰 초대장🎅</span>
-            <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
-            <span>🎅크시스마쓰 초대장🎅</span>
-            <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
-            <span>🎅크시스마쓰 초대장🎅</span>
-            <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
+            <span>🎅크리스마쓰 초대장🎅</span>
+            <span>이 초대장은 모바일 퍼스트입니다. 핸드폰으로 바~</span>
         </Text>
           <img alt="" src={main}/>
       </Header>
@@ -83,12 +83,6 @@ function App() {
           <GiftImg alt="" src={gift} onClick={() => clickToImg('gift')} />
           <MoneyImg alt="" src={money} onClick={() => clickToImg('money')} />
         </ImgBox>
-
-        <TextBox>
-          <BoldText><span>우리가 할 것들.</span></BoldText>
-          <p>너는 누구니. <span>은디</span>가 고심한 크리쓰마스 케이쿠 커팅식. 오늘을 기념하며 사진 그리고 영상 편지. . 귀염뽀짝 선물 교환. 올해의 어쩌구 nn. . <span>승원</span>이가 고심한 와인 콸콸콸. .</p>
-          <p>참가를 원하는 사람은 요기 <a href="https://open.kakao.com/o/g0bsGmSf">오픈챗</a>으로 들어와잉~ 💝</p>
-        </TextBox>
 
         {isHeart && (
           <TextBox>
@@ -108,6 +102,12 @@ function App() {
         {isMoney && (
           <TextBox><p>참가비는 <span>사만냥</span>입니다. 음식. 주류. 케이쿠. 대관. 약간의 소품등에 이용됩니다. 남는 돈은 없습니다.</p></TextBox>
         )}
+
+        <TextBox>
+          <BoldText><span>우리가 할 것들.</span></BoldText>
+          <p>너는 누구니. <span>은디</span>가 고심한 크리쓰마스 케이쿠 커팅식. 오늘을 기념하며 사진 그리고 영상 편지. . 귀염뽀짝 선물 교환. 올해의 어쩌구 nn. . <span>승원</span>이가 고심한 와인 콸콸콸. .</p>
+          <p>참가를 원하는 사람은 요기 <a href="https://open.kakao.com/o/g0bsGmSf">오픈챗</a>으로 들어와잉~ 💝</p>
+        </TextBox>
       </Article>
     </Wrap>
   );
@@ -203,8 +203,18 @@ const circleMove3 = keyframes`
   }
 `
 
+const circleMove4 = keyframes`
+  0%,100%{
+    transform:translate(-10%,25%);
+  }
+  
+  50%{
+    transform:translate(10%,10%);
+  }
+`
+
 export const HeartImg = styled.img`
-  animation: ${circleMove} 18s linear infinite;
+  animation: ${circleMove4} 12s linear infinite;
 
 `;
  export const DressImg = styled.img`
