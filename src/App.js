@@ -60,7 +60,7 @@ function App() {
     <Wrap>
       <Header onClick={onClickToHeader}>
           <Text>
-          <span>🎅크시스마쓰 초대장🎅</span>
+          <span>🎅크리스마쓰 초대장🎅</span>
           <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
             <span>🎅크리스마쓰 초대장🎅</span>
             <span>이 초대장은 모바일 퍼스트입니다. 핸드폰으로 바~</span>
