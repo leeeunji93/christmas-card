@@ -63,13 +63,13 @@ function App() {
           <span>🎅크리스마쓰 초대장🎅</span>
           <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
           <span>🎅크리스마쓰 초대장🎅</span>
-          <span>아래 이모티콘을 눌러ㅂ ㅏ ~ </span>
+          <span>이 초대장은 모바일 퍼스트입니다. 핸드폰으로 바~</span>
           <span>🎅크리스마쓰 초대장🎅</span>
           <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
           <span>🎅크리스마쓰 초대장🎅</span>
           <span>이 초대장은 모바일 퍼스트입니다. 핸드폰으로 바~</span>
           <span>🎅크리스마쓰 초대장🎅</span>
-          <span>아해 이모티콘을 눌러 ㅂ ㅏ ~ </span>
+          <span>이 초대장은 핫 걸 n 핫 뽀이에게만 전해집니다.</span>
           <span>🎅크리스마쓰 초대장🎅</span>
           <span>이 초대장은 모바일 퍼스트입니다. 핸드폰으로 바~</span>
         </Text>
@@ -96,7 +96,7 @@ function App() {
         )}
 
         {isGift && (
-          <TextBox><p>서로의 행운을 비는 <span>귀엽고 따땃한 선물</span>을 준비해 주세요. 만냥 이하 권장. 이 외 <span>음식 및 주류 협찬 대환영</span></p></TextBox>
+          <TextBox><p>서로의 행운을 비는 <span>따땃한 선물</span>을 준비해 주세요. 이만냥 이하 권장. 이 외 <span>음식 및 주류 협찬 대환영</span></p></TextBox>
         )}
 
         {isMoney && (
