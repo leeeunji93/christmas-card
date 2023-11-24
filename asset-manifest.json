@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/christmas-card/static/css/main.e6c13ad2.css",
-    "main.js": "/christmas-card/static/js/main.73a991b2.js",
+    "main.js": "/christmas-card/static/js/main.b817337d.js",
     "static/js/787.63ceddae.chunk.js": "/christmas-card/static/js/787.63ceddae.chunk.js",
     "static/media/m.png": "/christmas-card/static/media/m.73ca59a275ee626ce91e.png",
     "static/media/File.jpg": "/christmas-card/static/media/File.0294d1eb53817e6adc54.jpg",
     "index.html": "/christmas-card/index.html",
     "main.e6c13ad2.css.map": "/christmas-card/static/css/main.e6c13ad2.css.map",
-    "main.73a991b2.js.map": "/christmas-card/static/js/main.73a991b2.js.map",
+    "main.b817337d.js.map": "/christmas-card/static/js/main.b817337d.js.map",
     "787.63ceddae.chunk.js.map": "/christmas-card/static/js/787.63ceddae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.73a991b2.js"
+    "static/js/main.b817337d.js"
   ]
 }
